@@ -12,7 +12,7 @@ This is a simple REST service built with Express js framework.
 
 1. Cloned the repository using git clone to create the REST-service project.
 
-2. Installed dependencies and libraries for creating the rest service that will return a json format code.
+2. Installed dependencies and libraries for creating the rest service that will return a json formatted code.
 
 ## Usage
 
