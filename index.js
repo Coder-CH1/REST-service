@@ -21,8 +21,8 @@ let gateways = [
 
 //Validation function for IP address
 function isValidIpAddress(ipAddress) {
-// Implement your validation logic here
-// For simplicity, let's assume any non-empty string is valid
+/**  Implement your validation logic here
+ For simplicity, let's assume any non-empty string is valid **/
   return ipAddress && typeof ipAddress === 'string';
 }
 
