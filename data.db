@@ -1,0 +1,6 @@
+CREATE TABLE gateways (
+  serialNumber TEXT PRIMARY KEY,
+  name TEXT,
+  ipAddress TEXT,
+  devices TEXT
+);
