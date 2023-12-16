@@ -1,12 +1,18 @@
 
 var express = require('express');
 var sqlite3 = require('sqlite3');
+const cors = require('cors');
 var bodyParser = require('body-parser');
 var app = express();
-var port = 5000;
+var port = 5501;
 
 // To parse JSON requests
 app.use(bodyParser.json());
+
+app.use(cors());
+
+// Serve static files from the 'public' directory
+app.use(express.static('public'));
 
 // Create SQLite database connection
 var db = new sqlite3.Database('gateways.db');
