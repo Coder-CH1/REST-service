@@ -17,7 +17,7 @@ This is a simple REST service built with Express js framework.
 ## Usage
 
 1. To start the server:
-   type npm start at the terminal, The server will be running at http://localhost:5000, also check out the wiki tab for the ui update.
+   type npm start at the terminal, The server will be running at http://localhost:5501, also check out the wiki tab for the ui update.
 
 ## Testing
 
